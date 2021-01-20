@@ -51385,7 +51385,7 @@ s=b.O(t.w).f
 $.ab2=s
 $.a01=s.a.a
 $.ab3=q
-return new Y.xS(H.d(["Python","Dart","Machine Learning","Spark","NLP","Tensorflow","FastAPI","Pandas","App development"],t.i),H.d([new Y.jS(r,"Till now","Inndata analytics","Lead Software Engineer / ML Engineer"),new Y.jS("July 2017",r,"Indie","Freelance developer")],t.ic),null)}}
+return new Y.xS(H.d(["Python","Dart","Machine Learning","Deep Learning","Spark","Big Query","SQL","NLP","Tensorflow","FastAPI","Pandas","App development"],t.i),H.d([new Y.jS(r,"Till now","Inndata analytics","Lead Software Engineer / ML Engineer"),new Y.jS("July 2017",r,"Indie","Freelance developer")],t.ic),null)}}
 Y.jS.prototype={}
 Y.xS.prototype={
 M:function(a,b){var s,r,q,p,o=null,n="ProductSans",m=4282728539,l=$.ZR()
