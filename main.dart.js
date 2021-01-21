@@ -51423,10 +51423,10 @@ return T.h5(H.d([Z.a2g(),new T.dc(new V.aL(12,12,12,12),T.Ag(H.d([new T.e1(C.rN,
 yb:function(a){var s=null,r=A.ci(s,s,new P.C(4286939548),s,s,s,s,s,"ProductSans",s,s,10,s,s,s,1.5,!0,1,s,s,s,s,s)
 return L.fI("Md Sadab Wasim, ALL RIGHTS RESERVED.",r.CU(a.O(t.w).f.a.a<768?8:10))},
 yh:function(){var s=4282728539,r=null
-return T.Ag(H.d([D.hg(r,U.xW("assets/icons/ic_linkedIn.png",new P.C(s),20,20),C.ac,!1,r,r,r,r,r,r,r,r,r,r,new Y.LM(),r,r,r,r,r),T.cU(r,r,16),D.hg(r,U.xW("assets/icons/ic_evernote.png",new P.C(s),20,20),C.ac,!1,r,r,r,r,r,r,r,r,r,r,new Y.LN(),r,r,r,r,r),T.cU(r,r,16),D.hg(r,U.xW("assets/icons/ic_google.png",new P.C(s),20,20),C.ac,!1,r,r,r,r,r,r,r,r,r,r,new Y.LO(),r,r,r,r,r),T.cU(r,r,16),D.hg(r,U.xW("assets/icons/ic_twitter.png",new P.C(s),20,20),C.ac,!1,r,r,r,r,r,r,r,r,r,r,new Y.LP(),r,r,r,r,r)],t.Z),C.b3,C.mG,C.aV)}}
+return T.Ag(H.d([D.hg(r,U.xW("assets/assets/icons/ic_linkedIn.png",new P.C(s),20,20),C.ac,!1,r,r,r,r,r,r,r,r,r,r,new Y.LM(),r,r,r,r,r),T.cU(r,r,16),D.hg(r,U.xW("assets/assets/icons/ic_evernote.png",new P.C(s),20,20),C.ac,!1,r,r,r,r,r,r,r,r,r,r,new Y.LN(),r,r,r,r,r),T.cU(r,r,16),D.hg(r,U.xW("assets/assets/icons/ic_google.png",new P.C(s),20,20),C.ac,!1,r,r,r,r,r,r,r,r,r,r,new Y.LO(),r,r,r,r,r),T.cU(r,r,16),D.hg(r,U.xW("assets/assets/icons/ic_twitter.png",new P.C(s),20,20),C.ac,!1,r,r,r,r,r,r,r,r,r,r,new Y.LP(),r,r,r,r,r)],t.Z),C.b3,C.mG,C.aV)}}
 Y.LQ.prototype={
 $2:function(a,b){var s,r,q,p,o,n=null,m=this.a,l=b.b,k=b.d,j=T.lI(m.qU(a),1),i=$.ZR(),h=t.Z
-i=T.h5(H.d([T.lI(T.Ag(H.d([j,U.xW("assets/images/programmer.gif",n,345*($.a01/i.a),n)],h),C.b3,C.aC,C.aV),1),m.yf(a)],h),C.b3,C.aC,C.hZ)
+i=T.h5(H.d([T.lI(T.Ag(H.d([j,U.xW("assets/assets/images/programmer.gif",n,345*($.a01/i.a),n)],h),C.b3,C.aC,C.aV),1),m.yf(a)],h),C.b3,C.aC,C.hZ)
 j=T.h5(H.d([T.lI(T.Ag(H.d([T.lI(m.qU(a),1)],h),C.b3,C.aC,C.aV),1),m.yf(a)],h),C.b3,C.aC,C.hZ)
 s=T.lI(m.qU(a),1)
 r=Z.a2g()
