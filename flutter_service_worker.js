@@ -3,30 +3,26 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "f85f5bcaf1813a501923550c5d877a19",
-"index.html": "075ed2b6102feb77de6363be5aba26ab",
-"/": "075ed2b6102feb77de6363be5aba26ab",
-"main.dart.js": "a3bc3346357d95ed35e970c9be9a7a31",
+  "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
+"assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
+"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"assets/NOTICES": "f31677cb89e6b3901264c8b09307c5ec",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "1901b9c399f45d5cc27b5fc14d0faf64",
-"assets/AssetManifest.json": "057e5f948efd9ff37e01bffd600b1491",
-"assets/NOTICES": "aac2a498d4d63c740b84167f118d9e89",
-"assets/FontManifest.json": "84b65288b758351321dc60b2eea1bf3c",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/assets/images/programmer.gif": "83c2ab3bc3b966aa0ab556fa71036544",
-"assets/assets/icons/ic_google.png": "8d61a1ae36dbd9d82305eab43cdb07fa",
-"assets/assets/icons/ic_linkedIn.png": "5b5479e865a403692971bdf905e09998",
-"assets/assets/icons/ic_dribbble.png": "ab2d08e303c4d0ee5467e4c272fdfd8b",
-"assets/assets/icons/ic_evernote.png": "19de46a5b8348420d099e78fde665955",
-"assets/assets/icons/ic_twitter.png": "83651994320dc0d3c7ad896ad058bb53",
-"assets/assets/fonts/Nexa-Bold.otf": "c9f309b3d47969ecac64a77a6c672594",
-"assets/assets/fonts/MaterialIcons-Regular.ttf": "a37b0c01c0baf1888ca812cc0508f6e2",
-"assets/assets/fonts/Nexa-Light.otf": "12108809f49c49bcdc126dcecc938761",
-"assets/assets/fonts/Product-Sans-Regular.ttf": "eae9c18cee82a8a1a52e654911f8fe83",
-"assets/assets/fonts/Quicksand-Regular.otf": "3ce1580b66db6742cecd4b41519fb5f1"
+"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
+"icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
+"index.html": "c5db1c6b22caee2fabe97c6cdf388c03",
+"/": "c5db1c6b22caee2fabe97c6cdf388c03",
+"main.dart": "c7f7850bc121717fca396ddd1435f32b",
+"main.dart.js": "c893c1f082b06242274f42644c85c64c",
+"manifest.json": "e74af8957b5899dc6da961caee768ec9",
+"version.json": "009c9e65172e010890f7f65fde438006"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -44,7 +40,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
@@ -170,7 +166,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
