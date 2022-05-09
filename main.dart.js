@@ -53594,10 +53594,10 @@ return A.hS(A.a([B.ks,new A.dc(B.xu,A.uo(A.a([new A.hM(B.te,s,s,this.z7(a),s),ne
 z7(a){var s=null,r=A.cX(s,s,new A.C(4286939548),s,s,s,s,s,"ProductSans",s,s,10,s,s,s,1.5,!0,s,1,s,s,s,s,s,s)
 return A.iy("\xa9 2022 Md Sadab Wasim, ALL RIGHTS RESERVED.",r.DF(a.M(t.w).f.a.a<768?8:10),s,s)},
 ze(){var s=null
-return A.uo(A.a([A.n0(s,A.B_("assets/icons/ic_linkedIn.png",B.c0,20,20),B.af,!1,s,s,s,s,s,s,s,s,s,s,new A.Px(),s,s,s,s,s),B.js,A.n0(s,A.B_("assets/icons/ic_github.png",B.c0,20,20),B.af,!1,s,s,s,s,s,s,s,s,s,s,new A.Py(),s,s,s,s,s),B.js,A.n0(s,A.B_("assets/icons/ic_twitter.png",B.c0,20,20),B.af,!1,s,s,s,s,s,s,s,s,s,s,new A.Pz(),s,s,s,s,s),B.js,A.n0(s,A.B_("assets/icons/ic_medium.png",B.c0,20,20),B.af,!1,s,s,s,s,s,s,s,s,s,s,new A.PA(),s,s,s,s,s)],t.p),B.as,B.pR,B.aj)}}
+return A.uo(A.a([A.n0(s,A.B_("assets/assets/icons/ic_linkedIn.png",B.c0,20,20),B.af,!1,s,s,s,s,s,s,s,s,s,s,new A.Px(),s,s,s,s,s),B.js,A.n0(s,A.B_("assets/assets/icons/ic_github.png",B.c0,20,20),B.af,!1,s,s,s,s,s,s,s,s,s,s,new A.Py(),s,s,s,s,s),B.js,A.n0(s,A.B_("assets/assets/icons/ic_twitter.png",B.c0,20,20),B.af,!1,s,s,s,s,s,s,s,s,s,s,new A.Pz(),s,s,s,s,s),B.js,A.n0(s,A.B_("assets/assets/icons/ic_medium.png",B.c0,20,20),B.af,!1,s,s,s,s,s,s,s,s,s,s,new A.PA(),s,s,s,s,s)],t.p),B.as,B.pR,B.aj)}}
 A.PB.prototype={
 $2(a,b){var s,r,q,p,o=null,n=this.a,m=A.mS(n.rz(a),1),l=$.a4u.aT(),k=t.p
-l=A.hS(A.a([A.mS(A.uo(A.a([m,A.B_("assets/images/programmer.gif",o,345*(l.gxD()/A.b(l.a,"uiSize").a),o)],k),B.as,B.a0,B.aj),1),n.zb(a)],k),B.as,B.a0,B.bK)
+l=A.hS(A.a([A.mS(A.uo(A.a([m,A.B_("assets/assets/images/programmer.gif",o,345*(l.gxD()/A.b(l.a,"uiSize").a),o)],k),B.as,B.a0,B.aj),1),n.zb(a)],k),B.as,B.a0,B.bK)
 m=A.hS(A.a([A.mS(A.uo(A.a([A.mS(n.rz(a),1)],k),B.as,B.a0,B.aj),1),n.zb(a)],k),B.as,B.a0,B.bK)
 s=A.mS(n.rz(a),1)
 r=n.z7(a)
